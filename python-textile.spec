@@ -10,6 +10,7 @@ Source0:        http://pypi.python.org/packages/source/t/%{shortname}/%{shortnam
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  python-devel
+BuildRequires:  python-setuptools
 
 %description
 Textile is a XHTML generator using a simple markup developed by Dean Allen. This
