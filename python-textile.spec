@@ -7,6 +7,7 @@ Group:          Development/Python
 License:        BSD
 URL:            http://dealmeida.net/projects/textile/
 Source0:        http://pypi.python.org/packages/source/t/%{shortname}/%{shortname}-%{version}.tar.gz
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:  python-devel
 BuildRequires:  python-setuptools
