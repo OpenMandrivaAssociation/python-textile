@@ -13,9 +13,9 @@ BuildRequires:  python-devel
 BuildRequires:  python-setuptools
 
 %description
-Textile is a XHTML generator using a simple markup developed by Dean Allen. This
-is a Python port with support for code validation, itex to MathML translation,
-Python code coloring and much more.
+Textile is a XHTML generator using a simple markup developed by Dean Allen.
+This is a Python port with support for code validation, itex to MathML
+translation, Python code coloring and much more.
 
 %prep
 %setup -q -n %{shortname}-%{version}
