@@ -2,7 +2,7 @@
 Name:           python-%{shortname}
 Version:        2.0.11
 Release:        %mkrel 1
-Summary:        This is Textile. A Humane Web Text Generator
+Summary:        A Humane Web Text Generator
 Group:          Development/Python
 License:        BSD
 URL:            http://dealmeida.net/projects/textile/
