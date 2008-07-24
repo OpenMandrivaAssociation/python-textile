@@ -1,7 +1,7 @@
 %define shortname textile
 Name:           python-%{shortname}
 Version:        2.0.11
-Release:        %mkrel 1
+Release:        %mkrel 3
 Summary:        A Humane Web Text Generator
 Group:          Development/Python
 License:        BSD
