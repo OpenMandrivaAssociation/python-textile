@@ -2,13 +2,14 @@
 %define debug_package %{nil}
 
 Name:           python-%{shortname}
-Version:        2.1.5
-Release:        2
+Version:        2.1.8
+Release:        1
 Summary:        A Humane Web Text Generator
+
 Group:          Development/Python
 License:        BSD
 URL:            http://dealmeida.net/projects/textile/
-Source0:        http://pypi.python.org/packages/source/t/%{shortname}/%{shortname}-%{version}.tar.gz
+Source0:        http://pypi.python.org/packages/source/t/textile/textile-%{version}.tar.gz
 
 BuildRequires:  python-devel
 BuildRequires:  python-setuptools
@@ -22,10 +23,11 @@ translation, Python code coloring and much more.
 %setup -q -n %{shortname}-%{version}
 
 %build
-%{__python} setup.py build
+python setup.py build
 
 %install
-%{__python} setup.py install -O1 --skip-build --root %{buildroot} --install-purelib=%{py_platsitedir}
+python setup.py install -O1 --skip-build --root %{buildroot} --install-purelib=%{py_platsitedir}
  
 %files
 %{py_platsitedir}/*
+
