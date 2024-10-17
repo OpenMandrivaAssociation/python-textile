@@ -8,7 +8,7 @@ Summary:        A Humane Web Text Generator
 
 Group:          Development/Python
 License:        BSD
-URL:            http://dealmeida.net/projects/textile/
+URL:            https://dealmeida.net/projects/textile/
 Source0:        http://pypi.python.org/packages/source/t/textile/textile-%{version}.tar.gz
 
 BuildRequires:  python-devel
